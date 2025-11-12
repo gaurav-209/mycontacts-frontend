@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const url = 'https://mycontacts-backend-lmk6.onrender.com/api'
+
 export const API = axios.create({
-  baseURL: "https://mycontacts-backend-lmk6.onrender.com/api", // your backend base URL
+  baseURL: url, // your backend base URL
 });
 
 // Add JWT token automatically
